@@ -1,4 +1,4 @@
-# Ability A → B 与 WindowStage 事件记录
+# Homework3：Ability A → B 与 WindowStage 事件记录
 
 `EntryAbility` 是 A，新增的 `AbilityB` 是 B。A 使用 `UIAbilityContext.startAbility()` 启动 B；B 使用 `terminateSelf()` 关闭自身并返回 A。
 
@@ -23,7 +23,14 @@
 
 ## 验证情况
 
-已使用本机 DevEco Studio 工具链完成 `entry@default` 的 debug `assembleHap` 构建，ArkTS 编译与 HAP 打包通过。当前工程未配置签名，生成的是未签名 HAP；当前无连接设备或模拟器，实际跳转和事件序列需按上述步骤运行验证。
+已使用本机 DevEco Studio 工具链完成 `entry@default` 的 debug `assembleHap` 构建，ArkTS 编译与 HAP 打包通过。该次构建未配置签名，生成的是未签名 HAP。随附的运行录屏和 HiLog 截图见下方。
+
+## 演示材料
+
+- [运行录屏](media/ability-navigation.mp4)
+- [WindowStage 事件日志截图](media/windowstage-events.png)
+
+![WindowStage 事件日志截图](media/windowstage-events.png)
 
 ## 主要文件
 
