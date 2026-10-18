@@ -27,10 +27,10 @@
 
 ## 演示材料
 
-- [运行录屏](../media/ability-navigation.mp4)
-- [WindowStage 事件日志截图](../media/windowstage-events.png)
+- [运行录屏](media/ability-navigation.mp4)
+- [WindowStage 事件日志截图](media/windowstage-events.png)
 
-![WindowStage 事件日志截图](../media/windowstage-events.png)
+![WindowStage 事件日志截图](media/windowstage-events.png)
 
 ## 主要文件
 
